@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Portfolio</title>
+    <link rel="shortcut icon" href="./assets/favicon.JPG" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaquery.css">
+</head>
+<body>
+<script src="./script.js"></script> 
+<!-- Header -->
+<nav id="desktop-nav">
+    <div class="logo"><a href="#home"> <mark>&nbsp;  Amir </mark></a> Ali</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">Amir Ali</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+</nav>
+<!-- End of Header -->
+<!-- About Section -->
+<section id="profile">
+    <div class="section_pic-container">
+        <img src="./assets/prof.jpeg" alt="Amir Ali Profile Pic" width="250rem"
+        style="border-radius: 50%;"/>
+    </div>
+    <div class="section_text">
+        <p class="section_text_p1">Hellow, I,m</p>
+        <h1 class="title">Amir Ali</h1>
+        <p class="section_text_p2">Frontend Developer<span class="multiple-text"></span></p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/AMIR RES.pdf')">
+            Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+            </button>
+        </div>
+        <div id="socials-container">
+            <img src="./assets/instagram.png" alt="My Instagram profile"
+            class="icon" onclick="location.href='https://Instagram.com/ali270247'">
+            <img src="./assets/github.png" alt="My Github profile"
+            class="icon" onclick="location.href='https://github.com/makesomediffert'">
+        </div>
+    </div>
+</section>
+<section id="about">
+    <p class="section_text_p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section_pic-container">
+            <img src="./assets/WhatsApp Image 2024-09-26 at 5.03.51 PM.jpeg" width="250rem" alt="Profile Picture"
+            class="about-pic">
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                <img src="./assets/Experience.png" alt="Experience icon"
+                class="icon">
+                <h3>Experience</h3>
+                <p>Fresher<br> Frontend Development</p>
+            </div>
+            <div class="details-container">
+                <img src="./assets/education.png" alt="Education icon"
+                class="icon">
+                <h3>Education</h3>
+                <p>Pursuing B.A. Bachelors Degree Final Year from IGNOU</p>
+            </div>
+        </div>
+        <div class="text-container">
+            <p>
+                As a frontend developer, You're someone who loves making websites and web apps look and feel awesome! You're all about creating those cool buttons, layouts, and interactive features that people love to use. You know your way around HTML, CSS, and JavaScript, and you're not afraid to dive into frameworks like React.js to make your life easier. You're all about making sure your creations work great on any device and in any browser. You're also big on keeping up with the latest trends and learning new stuff to stay ahead of the game. Collaboration is key for you too; you enjoy working with designers and other developers to make projects shine. Ultimately, you're all about building top-notch user experiences that people enjoy using.
+            </p>
+        </div>
+    </div>
+</div>
+</section> 
+<br> <br> <br> <br>
+<section id="experience">
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title">Experience</h1> <br>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">
+                    Fronted Development
+                </h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/tick.jpg" 
+                        alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/tick.jpg"
+                        alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/tick.jpg"
+                        alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>JAVASCRIPT</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/tick.jpg"
+                        alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>BOOTSTRAP</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/tick.jpg"
+                        alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>REACT JS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/tick.jpg"
+                        alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>REACT BOOTSTRAP</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">
+                    Backend Development
+                </h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/tick.jpg"
+                        alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                      
+                    <article>
+                        <img src="./assets/tick.jpg"
+                        alt="Experience icon"
+                        class="icon">
+                        <div>
+                            <h3>JAVA</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br> <br> <br> <br> 
+
+<!------------------------------END EXPERIENCE SECTION-------------------------->
+<!-- ---------------------------PROJECT SECTION--------------------------- -->
+<section id="projects">
+    <p class="section_text_p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/pet.JPG" 
+                alt="Project 1"
+                class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/makesomediffert/petrasta'">
+            Github
+            </button>
+            <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://makesomediffert.github.io/petrasta/'">
+            Live Demo
+            </button>
+            </div>
+        </div> 
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/Capture.JPG" 
+                alt="Project 2"
+                class="project-img"
+                onclick="location.href='./#projects'">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/makesomediffert/AsFinal'">
+            Github
+            </button>
+            <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://makesomediffert.github.io/AsFinal/'">
+            Live Demo
+            </button>
+            </div>
+        </div> 
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./assets/travel.png"
+                alt="Project 3"
+                class="project-img"
+                onclick="location.href='./#projects'">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/makesomediffert/as__travel'">
+            Github
+            </button>
+            <button class="btn btn-color-2 project-btn" 
+            onclick="location.href='https://makesomediffert.github.io/as__travel/'">
+            Live Demo
+            </button>
+            </div>
+        </div> 
+    </div>
+    </div>
+    
+</section>
+<!-- End Projects Section -->
+<!-- Contact Section -->
+<section id="contact">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+        <img src="./assets/mail.png"
+            alt="Email icon"
+            class="icon contact-icon">
+            <p><a href="mailto:ali270247@gmail.com">ali270247@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assets/CALL.png" 
+            alt="Instagram icon"
+            class="icon contact-icon">
+            <p><a href="tel:+8506030854">8506030854</a></p>
+        </div>
+    </div>
+</section>
+<!-- End Contact Section -->
+<!-- Footer -->
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2023 Amir Ali. All Right Reserved.</p>
+</footer>
+</body>
+</html>
